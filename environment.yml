@@ -1,0 +1,12 @@
+name: plane-section-viz
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.9
+  - numpy>=1.24
+  - scipy>=1.10
+  - matplotlib>=3.7
+  - sympy>=1.12
+  - pip
+  - pip:
+      - vpython>=7.6

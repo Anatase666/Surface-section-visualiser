@@ -1,0 +1,38 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Conda ---
+.conda/
+
+# --- IDEs / editors ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Project-specific runtime output ---
+main_slider_error.log
+*.log
+
+# --- Jupyter (if notebooks are added later) ---
+.ipynb_checkpoints/
+
+# --- Local scratch data / user-supplied surfaces (keep the tracked example only) ---
+/data/
+*.local.csv
